@@ -28,5 +28,7 @@ def index(request):
     form = PropagandaForm()
     if request.method == "POST":
         print(request.POST)
+    if request.method == "GET":
+        print("hello")
     context = {'form':form}
-    return render(request,'test.html',context)
+    return render(request,'index.html',context)

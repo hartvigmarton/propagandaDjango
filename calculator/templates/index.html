@@ -18,7 +18,7 @@
 
            <!-- <h1>szevasz {{name}}</h1> -->
             <h1>Válassz kifejezést!</h1>
-            <form action="GET">
+            <form method="POST" action="POST">
                 <input type="checkbox" id="expression" name="expression" value="Orbán">
                 <label for="expression"> Orbán</label><br>
                 <input type="checkbox" id="experssion" name="expression" value="Gyurcsány">
@@ -26,7 +26,7 @@
                 <input type="submit" value="mehet">
             </form>
 
-            <!-- teszt rész -->
+            <!-- teszt rész
             <form action="/calculator/" method="post">
                 <label for="your_name">Your name: </label>
                 <input id="your_name" type="text" name="your_name" value="{{ name }}">
@@ -36,5 +36,6 @@
                 {{ form }}
                 <input type="submit" value="küldés">
             </form>
+             -->
     </body>
 </html>
